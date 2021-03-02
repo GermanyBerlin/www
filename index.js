@@ -10,9 +10,9 @@ const app = express();
 const port = 3000;
 
 app.get('/',(req, res) =>{
-  res.send('Главная страница сайта');
+  res.send('Главная страница сайта!!!');
 });
 
 app.listen(port, () =>{
-  console.log('Сервер запущен по порту: '+port)
+  console.log('Сервер запущен по порту: ' + port);
 });
